@@ -45,13 +45,13 @@ Module personnalisé pour Home Assistant permettant de suivre en temps réel l'o
 2. Chercher **EDF Tempo**
 3. Renseigner vos tarifs personnalisés (consultez votre espace client EDF)
 
-### Tarifs par défaut 2024-2025 (TTC)
+### Tarifs par défaut au 1er février 2026 (TTC)
 
 | Couleur | HC | HP |
 |---|---|---|
-| 🔵 Bleu | 0.1056 €/kWh | 0.1369 €/kWh |
-| ⚪ Blanc | 0.1258 €/kWh | 0.1654 €/kWh |
-| 🔴 Rouge | 0.1490 €/kWh | 0.7562 €/kWh |
+| 🔵 Bleu | 0.1325 €/kWh | 0.1612 €/kWh |
+| ⚪ Blanc | 0.1499 €/kWh | 0.1871 €/kWh |
+| 🔴 Rouge | 0.1575 €/kWh | 0.7060 €/kWh |
 
 > Vous pouvez modifier ces tarifs à tout moment via **Configurer** dans la fiche de l'intégration.
 
