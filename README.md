@@ -222,7 +222,7 @@ cards:
           red: 0.19
 ```
 
-### Astuce de pro : Éviter la désynchronisation
+### ATTENTION !!! : Éviter la désynchronisation !
 Cette intégration interroge l'API d'EDF toutes les 30 minutes. Lors des bascules Heures Pleines / Heures Creuses (ex: 22h00 ou 06h00), il peut y avoir un décalage d'affichage allant jusqu'à 30 minutes.
 Pour forcer Home Assistant à rafraîchir les valeurs à la seconde près, ajoutez cette automatisation :
 
