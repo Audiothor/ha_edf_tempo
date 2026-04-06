@@ -247,6 +247,7 @@ mode: single
 - La **couleur du lendemain** est publiée par RTE vers **10h30/11h00**. Avant cette heure, le capteur affiche `INCONNU`.
 - La **saison Tempo** court du **1er septembre au 31 août**.
 - Les données sont rafraîchies **toutes les 30 minutes**.
+- **Compatibilité** : Nécessite Home Assistant version **2023.1.0** ou supérieure.
 - Source des données : [api-couleur-tempo.fr](https://www.api-couleur-tempo.fr/api)
 
 ---
