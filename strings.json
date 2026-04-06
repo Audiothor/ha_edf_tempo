@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "EDF Tempo",
+        "description": "Configurez le module EDF Tempo avec vos tarifs personnalisés.",
+        "data": {
+          "prix_bleu_hc": "Prix Bleu HC (€/kWh)",
+          "prix_bleu_hp": "Prix Bleu HP (€/kWh)",
+          "prix_blanc_hc": "Prix Blanc HC (€/kWh)",
+          "prix_blanc_hp": "Prix Blanc HP (€/kWh)",
+          "prix_rouge_hc": "Prix Rouge HC (€/kWh)",
+          "prix_rouge_hp": "Prix Rouge HP (€/kWh)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "EDF Tempo est déjà configuré."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options EDF Tempo",
+        "data": {
+          "prix_bleu_hc": "Prix Bleu HC (€/kWh)",
+          "prix_bleu_hp": "Prix Bleu HP (€/kWh)",
+          "prix_blanc_hc": "Prix Blanc HC (€/kWh)",
+          "prix_blanc_hp": "Prix Blanc HP (€/kWh)",
+          "prix_rouge_hc": "Prix Rouge HC (€/kWh)",
+          "prix_rouge_hp": "Prix Rouge HP (€/kWh)"
+        }
+      }
+    }
+  }
+}

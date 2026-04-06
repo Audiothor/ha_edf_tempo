@@ -1,0 +1,11 @@
+{
+  "domain": "edf_tempo",
+  "name": "EDF Tempo",
+  "version": "1.0.0",
+  "documentation": "https://www.api-couleur-tempo.fr/api",
+  "dependencies": [],
+  "codeowners": [],
+  "requirements": [],
+  "iot_class": "cloud_polling",
+  "config_flow": true
+}
