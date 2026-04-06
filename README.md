@@ -1,4 +1,4 @@
-# 🔵⚪🔴 EDF Tempo — Custom Component Home Assistant
+# <img src="brand/icon.png" width="40" align="center"> EDF Tempo — Custom Component Home Assistant
 
 Module personnalisé pour Home Assistant permettant de suivre en temps réel l'option tarifaire **Tempo d'EDF**.
 
@@ -23,7 +23,7 @@ Module personnalisé pour Home Assistant permettant de suivre en temps réel l'o
 
 ### Via HACS (recommandé)
 1. Dans HACS → *Intégrations* → *Dépôts personnalisés*
-2. Ajouter l'URL du dépôt, catégorie **Integration**
+2. Ajouter l'URL du dépôt (`https://github.com/Audiothor/ha_edf_tempo`), catégorie **Intégration**
 3. Installer **EDF Tempo**
 4. Redémarrer Home Assistant
 
