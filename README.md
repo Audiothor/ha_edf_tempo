@@ -4,18 +4,24 @@ Module personnalisé pour Home Assistant permettant de suivre en temps réel l'o
 
 ## Fonctionnalités
 
-| Capteur | Description |
-|---|---|
-| **Couleur Aujourd'hui** | BLEU / BLANC / ROUGE |
-| **Couleur Demain** | Connue à partir de ~10h30 |
-| **Période Tarifaire** | Heure Creuse (HC) ou Heure Pleine (HP) |
-| **Tarif Actuel** | €/kWh selon couleur + HC/HP |
-| **Jours Bleus/Blancs/Rouges restants** | Compteurs sur la saison (finit le 31 août) |
-| **Jours Bleus/Blancs/Rouges (saison)** | Compteurs cumulés depuis le 1er septembre |
-| **Archive Saison** | Historique complet avec listes de dates par couleur |
-| **Binaire : Heure Creuse** | ON entre 22h00 et 06h00 |
-| **Binaire : Jour Rouge/Blanc/Bleu** | ON si c'est le cas aujourd'hui |
-| **Binaire : Demain Rouge** | Alerte anticipée sur le lendemain |
+| Nom du Capteur | Type | ID de l'entité (`entity_id`) | Description |
+|---|---|---|---|
+| **Couleur Aujourd'hui** | `sensor` | `sensor.edf_tempo_couleur_aujourd_hui` | BLEU / BLANC / ROUGE |
+| **Couleur Demain** | `sensor` | `sensor.edf_tempo_couleur_demain` | Connue à partir de ~10h30 |
+| **Période Tarifaire** | `sensor` | `sensor.edf_tempo_periode_tarifaire` | Heures Creuses ou Heures Pleines |
+| **Tarif Actuel** | `sensor` | `sensor.edf_tempo_tarif_actuel` | Coût instantané en €/kWh actuel |
+| **Jours Bleus restants** | `sensor` | `sensor.edf_tempo_jours_bleus_restants` | Compteur dégressif sur la saison |
+| **Jours Blancs restants** | `sensor` | `sensor.edf_tempo_jours_blancs_restants` | Compteur dégressif sur la saison |
+| **Jours Rouges restants** | `sensor` | `sensor.edf_tempo_jours_rouges_restants` | Compteur dégressif sur la saison |
+| **Jours Bleus (saison)** | `sensor` | `sensor.edf_tempo_jours_bleus_saison` | Compteur cumulé depuis le 1er sep. |
+| **Jours Blancs (saison)** | `sensor` | `sensor.edf_tempo_jours_blancs_saison` | Compteur cumulé depuis le 1er sep. |
+| **Jours Rouges (saison)** | `sensor` | `sensor.edf_tempo_jours_rouges_saison` | Compteur cumulé depuis le 1er sep. |
+| **Archive Saison** | `sensor` | `sensor.edf_tempo_archive_saison` | Historique / liste de dates par couleur |
+| **Heure Creuse** | `binary_sensor` | `binary_sensor.edf_tempo_heure_creuse` | `on` pendant les heures creuses (22h-6h) |
+| **Jour Bleu Actuel** | `binary_sensor` | `binary_sensor.edf_tempo_jour_bleu` | `on` si aujourd'hui est Bleu |
+| **Jour Blanc Actuel** | `binary_sensor` | `binary_sensor.edf_tempo_jour_blanc` | `on` si aujourd'hui est Blanc |
+| **Jour Rouge Actuel** | `binary_sensor` | `binary_sensor.edf_tempo_jour_rouge` | `on` si aujourd'hui est Rouge |
+| **Demain Rouge** | `binary_sensor` | `binary_sensor.edf_tempo_demain_rouge` | Alerte anticipée si le lendemain est Rouge |
 
 ---
 
